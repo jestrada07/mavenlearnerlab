@@ -20,7 +20,7 @@ public void testAdd(){
 
     Assert.assertEquals(1,people.count());
 
-    Assert.assertTrue(people.hasEntry(person));
+    Assert.assertTrue(people.contains(person));
 
 
 
@@ -42,7 +42,7 @@ public void testAdd(){
 
     Assert.assertEquals(0, people.count());
 
-    Assert.assertFalse(people.hasEntry(person));
+    Assert.assertFalse(people.contains(person));
 
 
 

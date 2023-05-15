@@ -46,6 +46,14 @@ private List<Person> personList;
             return false;
         }
 
+        public boolean contains(Person person){
+        if(personList.contains(person)){
+
+            return true;
+        }
+            return false;
+        }
+
 
         public void remove(Person person){
         this.personList.remove(person);
